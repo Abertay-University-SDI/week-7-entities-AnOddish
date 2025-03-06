@@ -6,6 +6,8 @@
 #include <string>
 #include <iostream>
 
+#include "BeachBallManager.h"
+
 
 class Level : public BaseLevel{
 public:
@@ -18,5 +20,5 @@ public:
 
 private:
 	// Default variables for level class.
-	
+	BeachBallManager beachBallManager;
 };
